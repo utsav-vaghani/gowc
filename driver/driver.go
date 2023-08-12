@@ -2,11 +2,10 @@ package driver
 
 import (
 	"fmt"
+	"github.com/utsav-vaghani/gowc/reader"
+	"github.com/utsav-vaghani/gowc/reader/file"
+	"github.com/utsav-vaghani/gowc/reader/stdin"
 	"strings"
-
-	"github.com/utsav-vaghani/gowc/src/reader"
-	"github.com/utsav-vaghani/gowc/src/reader/file"
-	"github.com/utsav-vaghani/gowc/src/reader/stdin"
 )
 
 type driver struct {

@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/utsav-vaghani/gowc/driver"
 	"os"
-
-	"github.com/utsav-vaghani/gowc/src/driver"
 )
 
 func main() {

@@ -3,10 +3,9 @@ package stdin
 import (
 	"bufio"
 	"fmt"
+	"github.com/utsav-vaghani/gowc/reader"
 	"os"
 	"strings"
-
-	"github.com/utsav-vaghani/gowc/src/reader"
 )
 
 type stdinReader struct {
