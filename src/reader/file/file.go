@@ -3,9 +3,10 @@ package file
 import (
 	"bufio"
 	"fmt"
-	"github.com/utsav-vaghani/gowc/src/reader"
 	"os"
 	"strings"
+
+	"github.com/utsav-vaghani/gowc/src/reader"
 )
 
 type fileReader struct {
